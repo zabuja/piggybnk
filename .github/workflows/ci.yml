@@ -28,14 +28,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: yarn
 
       - name: 🗂️ Install dependencies
         run: npm install
 
       - name: 🔨 Build
         run: npm run build
-        
+
       # Upload dist artifacts
       - uses: actions/upload-artifact@v3
         with:
