@@ -187,7 +187,7 @@ p{
   opacity: 0.5;
 }
 .footer{
-  
+  margin: 0 1rem;
  display: flex;
  justify-content: space-between;
  margin-bottom: 3rem;
