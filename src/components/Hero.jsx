@@ -6,6 +6,7 @@ import Opp from "./svgs/Opp";
 import Missing from "./svgs/Missing";
 import heroImage from "../assets/heroImage.png";
 
+
 const Hero = () => {
   return (
     <div className="hero">
